@@ -16,8 +16,24 @@ footer{
 	color:#6B6B6B;
 }
 
-em {  /* or .call em, but you should aim for consistency in your styling */
-    font-size: 12px;
+.light-grey{
+	color:#BABABA;
+}
+
+.green{
+	color:#7B9E0D;
+}
+
+.small-font{  
+    font-size: 14px;
+}
+.header1 {
+	font-size: 20px;
+	margin-top: 40px;
+}
+
+.hidden{
+	display: none;
 }
 
 
