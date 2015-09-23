@@ -20,6 +20,8 @@ em {  /* or .call em, but you should aim for consistency in your styling */
     font-size: 12px;
 }
 
+
+
 @media screen and (max-width: 1000px) {
     #body {
         padding-left: 2%;
