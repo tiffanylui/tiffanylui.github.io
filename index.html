@@ -1,12 +1,13 @@
 <head>
 <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 1000px)" href="style.css">
+</script>
 </head>
 <body>
-	<h5 class="hidden" style="position:fixed; top:40%; right:2%;color:#cfcfcf" > 
-		Check out my <a href="http://tiffanylui.github.io/TiffanyLui-Green-OS.pdf" style="color:#cfcfcf">resume</a>
+	<h5 class="hidden" style="position:fixed; top:50%; right:2%;color:#BABABA" > 
+		Check out my <a href="http://tiffanylui.github.io/TiffanyLui-Green-OS.pdf" style="color:#BABABA">resume</a>
 	</h5>
-	<h5 class="hidden" style="position:fixed; bottom:1%; right:2%;color:#cfcfcf" > 
-		<a href="https://ca.linkedin.com/in/luitiffan" style="color:#cfcfcf">Linkedin </a> | <a href="tiffany.lui@hotmail.com" style="color:#cfcfcf">Email</a>
+	<h5 class="hidden" style="position:fixed; top:1%; right:2%;color:#BABABA" > 
+		<a href="https://ca.linkedin.com/in/luitiffan" style="color:#BABABA">Linkedin </a> | <a href="tiffany.lui@hotmail.com" style="color:#BABABA">Email</a>
 	</h5>
 <div id="header">
 	<h3 style="font-size:75px; padding-top:120px">
@@ -26,27 +27,40 @@
 	</h5>
 
 	<h3 style="font-size:20px; margin-top:40px;color:#7B9E0D"> 
-		The Different Sides of Me 
+		The Different Sides of Me <em>(Click &#8597; for more details)</em>
 	</h3>
-	<h3 style="color:#7B9E0D;margin-top:10px;">
-		TECHNICAL
+	<h3 style="color:#7B9E0D;margin-top:10px;" onclick="toggleTechnical()">
+		&#8597; TECHNICAL 
 	</h3>
 	<h5 style="margin-top:10px;">
-		Striving to be an exceptional developer but focusing on mobile development. My goal is to become a guru in both iOS development and Android development. At the same time I like to search for new things to learn. In the past I have started projects regarding Android and IOS. I am currently learning MEAN stack on my own time. Since the industry is constantly evolving, a developer cannot be stagnant. Even by the time I am fifty years old, I will keep learning.
+		Striving to be an exceptional developer but focusing on mobile development. 
+
+		<div id="technical" style="display:none;">
+		<br><p class="grey">My goal is to become a guru in both iOS development and Android development. At the same time I like to search for new things to learn. In the past I have started projects regarding Android and IOS. I am currently learning MEAN stack on my own time. Since the industry is constantly evolving, a developer cannot be stagnant. Even by the time I am fifty years old, I will keep learning.</p>
+		</div>
+
 	</h5>
 
-	<h3 style="color:#7B9E0D;margin-top:30px;">
-		PROCESS
+	<h3 style="color:#7B9E0D;margin-top:30px;" onclick="toggleProcess()">
+		&#8597; PROCESS
 	</h3>
 	<h5 style="margin-top:10px;">
-		A company's process is an aspect that I am obsessed with. This abstract part of a company is such a crucial part that sometimes can be overlooked. At any workplace I am fortunate to be in, I constantly look for ways to enhance the process to achieve better output.  Why shouldn't a company change their process if they know that a more efficient route can create a better outcome? The topic around the process of a company is one that will never have a definitive answer because each company is different. That is why it is such an fascinating topic.
+		A company's process is an aspect that I am obsessed with. 
+
+		<div id="process" style="display:none;">
+		<br><p class="grey">This abstract part of a company is such a crucial part that sometimes can be overlooked. At any workplace I am fortunate to be in, I constantly look for ways to enhance the process to achieve better output.  Why shouldn't a company change their process if they know that a more efficient route can create a better outcome? The topic around the process of a company is one that will never have a definitive answer because each company is different. That is why it is such an fascinating topic.</p>
+	</div>
 	</h5>
 
-	<h3 style="color:#7B9E0D;margin-top:30px;">
-		BUSINESS
+	<h3 style="color:#7B9E0D;margin-top:30px;" onclick="toggleBusiness()">
+		&#8597; BUSINESS
 	</h3>
 	<h5 style="margin-top:10px;">
-		Client facing projects are ones I enjoy the most. During many occasions you can see the direct impact to the target audience. This accomplished feeling of being able to produce something that the average consumer can enjoy is amazing. 
+		Client facing projects are ones I enjoy the most. 
+
+	<div id="business" style="display:none;">
+		<br><p class="grey">During many occasions you can see the direct impact to the target audience. This accomplished feeling of being able to produce something that the average consumer can enjoy is amazing. </p>
+	</div>
 	</h5>
 
 	<h3 style="font-size:20px; margin-top:40px;color:#7B9E0D"> 
@@ -69,19 +83,6 @@
 	<h5 style="margin-top:10px;">
 		<a href="http://tiffanylui.github.io/TiffanyLui-Green-OS.pdf" style="color:#000000">Check out my resume to see all the juicy details! </a>
 	</h5>
-
-	<h3 style="font-size:20px; margin-top:40px;color:#7B9E0D"> 
-		Books I'm reading right now
-	</h3>
-	<h5 style="margin-top:10px;">
-		<a href="http://www.amazon.com/Built-Last-Successful-Visionary-Essentials/dp/0060516402" style="color:#000000;">Built to Last: Successful Habits of Visionary Companies</a>
-	</h5>
-	<h5 style="margin-top:10px;">
-		<a href="http://www.amazon.com/Martian-Novel-Andy-Weir/dp/0804139024/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="style="color:#000000">The Martian</a>
-	</h5>
-	<h5 style="margin-top:10px;">
-		<a href="http://www.amazon.com/Crazy-Rich-Asians-Kevin-Kwan/dp/0345803787"style="color:#000000">Crazy Rich Asians</a>
-	</h5>
 </div>
 
 <footer style="padding-top:120px">
@@ -89,3 +90,30 @@
 </footer>
 
 </body>
+
+<script type="text/javascript">
+function toggleTechnical() {
+  // Get the DOM reference
+  var contentId = document.getElementById("technical");
+  // Toggle 
+  contentId.style.display == "none" ? contentId.style.display = "inherit" : 
+contentId.style.display = "none"; 
+}
+
+function toggleProcess() {
+  // Get the DOM reference
+  var contentId = document.getElementById("process");
+  // Toggle 
+  contentId.style.display == "none" ? contentId.style.display = "inherit" : 
+contentId.style.display = "none"; 
+}
+
+function toggleBusiness() {
+  // Get the DOM reference
+  var contentId = document.getElementById("business");
+  // Toggle 
+  contentId.style.display == "none" ? contentId.style.display = "inherit" : 
+contentId.style.display = "none"; 
+}
+
+</script>
