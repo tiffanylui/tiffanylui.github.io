@@ -1,6 +1,7 @@
 #header {
 	color:#7B9E0D;
 	text-align: center;
+	min-width: 400px
 }
 #body {
 	padding-left: 250px;
@@ -10,6 +11,15 @@
 footer{
 	color:#cfcfcf;
 	text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    #body {
+        padding-left: 0px;
+        padding-right:0px;
+        padding-top: 40px;
+        min-width: 400px;
+    }
 }
 
 
