@@ -1,3 +1,14 @@
+#header {
+	color:#7B9E0D;
+	text-align: center;
+}
+#body {
+	padding-left: 250px;
+	padding-right: 240px;
+	padding-top: 40px;
+}
+
+
 <!-- Franklin Gothic Font -->
 h1 {
 	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
@@ -9,11 +20,39 @@ h1 {
 }
 h3 {
 	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	margin:0px;
+}
+h5 {
+	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 15.4px;
+	margin: 0px;
+}
+h5.red:hover {
+	color:#FF6666;
+}
+h5.orange:hover {
+	color:#FFB870;
+}
+h5.yellow:hover {
+	color:#FFFF00;
+}
+h5.green:hover {
+	color:#99FF66;
+}
+h5.blue:hover {
+	color:#94FFFF;
+}
+h5.purple:hover {
+	color:#DFBFFF;
 }
 p {
 	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
