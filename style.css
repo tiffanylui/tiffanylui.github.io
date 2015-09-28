@@ -1,12 +1,13 @@
 #header {
 	color:#7B9E0D;
 	text-align: center;
-	min-width: 400px
+	min-width: 500px;
 }
 #body {
 	padding-left: 250px;
 	padding-right: 240px;
 	padding-top: 40px;
+	min-width: 500px;
 }
 footer{
 	color:#cfcfcf;
