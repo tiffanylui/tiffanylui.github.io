@@ -1,207 +1,226 @@
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </script>
 </head>
-<body>
+<body style="
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;">
 	<h5 style="position:fixed; top:1%; right:2%" class="light-grey" > 
 		<a href="https://ca.linkedin.com/in/luitiffany" target="_blank" class="light-grey">Linkedin </a> | 
 		<a href="mailto:tiffany.lui@hotmail.com" target="_blank" class="light-grey">Email</a> | 
 		<a href="http://tiffanylui.github.io/TiffanyLui-3A.pdf" target="_blank" class="light-grey">Resume</a> 
 	</h5>
-<div id="header">
-	<h3 style="font-size:75px; padding-top:120px">
-		TIFFANY LUI
-	</h3>
-	<h3 style="margin-top:40px;color:#000000">
-		3A Computer Engineer - Aspiring Mobile Developer</br>
-	</h3>
-	<h3 style="margin-top:10px">
-		<a href="http://tiffanylui.github.io/TiffanyLui-3A.pdf" target="_blank" class="green">Resume</a> | 
-		<a href="mailto:tiffany.lui@hotmail.com" target="_blank" class="green">tiffany.lui@hotmail.com</a> | 
-		<a href="https://github.com/tiffanylui" target="_blank" class="green">github.com/tiffanylui</a> | 
-		<a href="https://ca.linkedin.com/in/luitiffany" target="_blank" class="green">Linkedin</a>
-	</h3>
+<div class="flexbox">
+<div class="col" id="header">
+	<div style="position:fixed ;top:5%;">
+		<h3 style="margin-top:80px;font-size:75px;float:left;" class="white">
+			Tiffany Lui
+		</h3>
+	</br>
+		<!-- <img src="pic.jpg" style="float:left;width:30%" > -->
+		<h3 style="margin-top:40px;color:#000000;float:right;">
+			Android Enthusiast/Developer</br>
+		</h3>
+	</br>
+		<h3 style="margin-top:50px;float:left;margin-left:36px">
+				<div>
+					<img align="middle" src="icons/ic_send_white_36dp_1x.png">
+					<a href="mailto:tiffany.lui@hotmail.com" target="_blank" class="white margin-left-icons">tiffany.lui@hotmail.com</a>
+					</br>
+				</div>
+				<div style="margin-top:20px">
+					<img align="middle"src="icons/ic_folder_white_36dp_1x.png">
+					<a href="https://github.com/tiffanylui" target="_blank" class="white margin-left-icons">github.com/tiffanylui</a></br>
+				</div>
+				<div style="margin-top:20px">
+					<img align="middle" src="icons/ic_content_paste_white_36dp_1x.png">
+					<a href="http://tiffanylui.github.io/TiffanyLui-3A.pdf" target="_blank" class="white margin-left-icons">Resume</a></br>
+				</div>
+				<div style="margin-top:20px">
+					<img align="middle"src="icons/ic_people_white_36dp_1x.png">
+					<a href="https://ca.linkedin.com/in/luitiffany" target="_blank" class="white margin-left-icons">Linkedin</a>
+				</div>
+				<div style="margin-top:60px">
+					<img align="middle" src="icons/ic_code_white_36dp_1x.png">
+					<h3 class="white margin-left-icons"> Libraries I've Worked with:</h3>
+					<p class="white" style="padding-left: 55px">- RxJava/ RxAndroid</p>
+					<p class="white" style="padding-left: 55px">- Retrofit</p>
+					<p class="white" style="padding-left: 55px">- Dagger 2</p>
+					<p class="white" style="padding-left: 55px">- Espresso</p>
+				</div>
+					<!-- <a  class="white margin-left-icons"> Programming Languages I know from most familar to least familiar:  Java, C#, Objective C, MySQL, C++, HTML, CSS, Javascript</a> -->
+				<div style="margin-top:10px">
+					<img align="middle" src="icons/ic_language_white_24dp_1x.png">
+					<h3 class="white margin-left-icons"> Other Languages:</h3>
+					<p class="white" style="padding-left: 55px"> Java, C#, Objective C,</p>
+					<p class="white" style="padding-left: 55px"> MySQL, C++, HTML, CSS, Javascript </p>
+				</div>
+		</h3>
+	</div>
 </div>
 
-<div id="body">
-	<h3 class="green header1">
-		WORDS TO DESCRIBE ME
-	</h3>
-
-	<h5 style="margin-top:10px">
-		Mobile Developer, Android Developer, IOS Developer, Agile Process Obsessed, Dog Lover, Coffee Drinker, MEAN Stack Learner, Dancer, Vancouverite
-	</h5>
-
-	<h3 class="green header1"> 
-		THE DIFFERENT SIDES OF ME <span class="small-font" style="color:#999999">(Click &darr; or <span class="expand">title</span> for more details)</span>
-	</h3>
-
-	<h3 style="color:#7B9E0D;margin-top:10px;" onclick="toggle('technical')">
-		&darr; <span class="expand">Technical</span>
-	</h3>
-
-	<h5 style="margin-top:10px;">
-		Striving to be an exceptional developer but focusing on mobile development. 
-
-		<div id="technical" class="hidden">
-		<br>
-		<p class="grey">
-			My goal is to become a guru in both iOS development and Android development. At the same time I like to search for new things to learn. In the past I have started projects regarding Android and IOS. I am currently learning MEAN stack on my own time. Since the industry is constantly evolving, a developer cannot be stagnant. Even by the time I am fifty years old, I will keep learning.
-		</p>
-		</div>
-
-	</h5>
-
-	<h3 style="color:#7B9E0D;margin-top:30px;" onclick="toggle('process')">
-		&darr; <span class="expand">Process</span>
-	</h3>
-
-	<h5 style="margin-top:10px;">
-		A company's process is an aspect that I am obsessed with. 
-
-		<div id="process" class="hidden">
-		<br>
-		<p class="grey">
-			This abstract part of a company is such a crucial part that sometimes can be overlooked. At any workplace I am fortunate to be in, I constantly look for ways to enhance the process to achieve better output.  Why shouldn't a company change their process if they know that a more efficient route can create a better outcome? The topic around the process of a company is one that will never have a definitive answer because each company is different. That is why it is such an fascinating topic.
-		</p>
+<div class="col" id="body">
+	<div class="cards" style="margin-top:20px">
+		<table style="width:100%;padding:16px">
+		  <tr>
+		    <td><img style="margin-right:25px;margin-left:8px"src="icons/ic_android_black_36dp_1x.png"></td>
+		    <td><h2 class="blue">My Obsession with Android </h3>
+		    </td>		
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td>
+			    <h3 style="margin-top:10px;">
+						Consumer facing applications
+				</h3>
+				<div>
+					<p>
+						</br>
+						Consumer facing applications are my <span class="blue">passion</span>. Being able to <span class="blue">impact</span> every user within the userbase, whether it is improving the user experience or the interface, it gives me joy a line of code I added to the application is improving someone's experience. <span class="blue">Android</span> is a platform that is constantly evolving. The design libraries are constantly updated to improve the user interface which will improve user experience. 
+					</p>
+				</div>
+		    </td>		
+		  </tr>
+		  	  </tr>
+		   <tr>
+		    <td></td>
+		    <td>
+		  		<hr style="border: 1px solid #E0E0E0;">
+		    </td>		
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td>
+		    		<h3>
+						10x Growth
+					</h3>
+					<div>
+						<p>
+						</br>
+							It is difficult to have one idea that will evolve the product to have <span class="blue">10x growth</span>. A great product is created by having <span class="blue">different ideas</span> come together to make <span class="blue">one successful product</span>. Even though my job description is not directly responsible for thinking of ideas that can help a product reach 10x growth, but regardless I still <span class="blue">constantly think of ideas</span>. Since I am directly touching the code, I try to think in the user's persepctive to see what type of features will improve their experience that even the users didn't know they wanted. I put my heart into every application I create and not only do the technical side but also try to think in product sense as well. 
+						</p>
+					</div>
+		    </td>		
+		  </tr>
+		</table>
 	</div>
-	</h5>
 
-	<h3 style="color:#7B9E0D;margin-top:30px;" onclick="toggle('business')">
-		&darr; <span class="expand">Business</span>
-	</h3>
-	<h5 style="margin-top:10px;">
-		Client facing projects are ones I enjoy the most. 
 
-	<div id="business" class="hidden">
-		<br>
-		<p class="grey">
-			During many occasions it is possible to see the direct impact that the product has to the target audience. This accomplished feeling of being able to produce something that the average consumer can enjoy is amazing. 
-		</p>
+	<div class="cards" style="margin-top:20px">
+		<table style="width:100%;padding:16px">
+		  <tr>
+		    <td><img style="margin-right:25px;margin-left:8px"src="icons/ic_work_black_36dp_1x.png"></td>
+		    <td><h2 class="blue">Past Work Experience</h3></td>		
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td>
+			    <h3 style="margin-top:10px;">
+						Android Developer  @ VarageSale 
+					
+				</h3>
+				<p class ="blue" style="font-size:12px">
+						JANUARY - APRIL 2016
+				</p>
+				
+				<div>
+					<p>
+						</br>
+						- Developed major features on the Android platform</br>
+						- Revised designs to include more aspects of Material design</br>
+						- Member of feature team that focused on activating users on the application</br>
+						- Actively brought up ideas to help growth of company</br>
+						- Began the integration of Espresso testing framework</br>
+					</p>
+				</div>
+		    </td>		
+		  </tr>
+		  	  </tr>
+		   <tr>
+		    <td></td>
+		    <td>
+		  		<hr style="border: 1px solid #E0E0E0;">
+		    </td>		
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td>
+		    		<h3>
+						Software Developer @ QuickTapSurvey 
+					</h3>
+					<p class ="blue" style="font-size:12px"> MAY - AUGUST 2015 </p>
+					<div>
+						<p>
+						</br>
+						- Contributed heavily in beta and full release of Android application</br>
+						- Part of multiple release for web application and iOS application </br>
+						- Introduced mobile automation to QA team and aided them in the implmentation of this process </br>
+						- Brought up ideas with manager and CEO to help the company become more efficient by introducing new tools and processes to the Agile process</br>
+						</p>
+					</div>
+		    </td>		
+		  </tr>
+		   <tr>
+		    <td></td>
+		    <td>
+		  		<hr style="border: 1px solid #E0E0E0;">
+		    </td>		
+		  </tr>
+		  <tr>
+		  	<td></td>
+		  	<td>
+			  	<h3> 
+				Agile Test Engineer @ Pivotal Labs
+				</h3>
+				<p class ="blue" style="font-size:12px"> SEPTEMBER - DECEMBER 2015 </p>
+				<div>
+					<p>
+					</br>
+					- Heavily involved in automation for multiple projects </br>
+					- Using different frameworks to apply whitebox testing and blackbox testing </br>
+					- Frameworks used: Espresso (Java), Calabash (Ruby, Cucumber)
+					- Backup QA lead for multiple projects that use Agile development methodology  including one of the largest sports application currently on the market </br>
+					- Became more involved in Agile development cycle such as collaboration with developers
+					</p>
+				</div>
+			<td>
+		  </tr>
+		  </tr>
+		  <tr>
+		   <td></td>
+		    <td>
+		  		<hr style="border: 1px solid #E0E0E0;">
+		    </td>		
+		  </tr>
+		   <tr>
+		  	<td></td>
+		  	<td>
+			  	<h3> 
+				Agile Test Engineer @ Xtreme Labs
+				</h3>
+				<p class ="blue" style="font-size:12px"> SEPTEMBER - DECEMBER 2014</span>
+				<div >
+					<p class="grey"></br>
+						- Android, iOS, Windows, Blackberry manual testing for multiple projects</br>
+						- Introduced to Agile methodology and learnt about development cycles </br>
+						- Aided project lead with organization of test plans
+					</p>
+				</div>
+			<td>
+		  </tr>
+		</table>
+			
 	</div>
-	</h5>
-
-	<h3 class="green header1"> 
-		WHAT I CAN BRING TO MY NEXT WORK EXPERIENCE
-	</h3>
-	<h5 style="margin-top:10px;">
-		- I thrive in growth-driven environments. This type of work environment allows me to grow and contribute in many different ways.</br>
-		- I enjoy collaborating with others because it is the best way understand different perspectives and to learn new skills. </br>
-		- In my spare time, I repeatedly think of ways to enhance efficiency in the workplace in order to achieve the most out of the process. </br>
-		- If I am missing any skills in the workplace, I try to improve them outside the workplace. </br>
-		- I will bring my smile everyday.
-	</h5>
-
-	<h3 class="green header1"> 
-		PAST WORK EXPERIENCE, SKILLS & TOOLS <span class="small-font" style="color:#999999">(Click &darr; or <span class="expand">title</span> for more details)</span>
-	</h3>
-
-	<h5 style="margin-top:10px;">
-		<i><a href="http://tiffanylui.github.io/TiffanyLui-3A.pdf" target="_blank" style="color:#000000">Check out my resume to see all skills and tools used during my work experience!</a></i>
-	</h5>
-	<h3 style="color:#7B9E0D;margin-top:10px;">
-		&darr; <span class="expand" onclick="toggle('varagesale')">Android Developer</span> <span style="float:right; font-size:12px;color:black">VarageSale, Toronto, Jan - Aug 2016</span>
-	</h3>
-	<h5 style="margin-top:10px;margin-left:10px">
-		Android developer for activation feature team
-	<div id="varagesale" class="hidden">
-		<p class="grey">
-		</br>
-		- Developed major features on the Android platform</br>
-		- Revised designs to include more aspects of Material design</br>
-		- Member of feature team that focused on activating users on the application</br>
-		- Actively brought up ideas to help growth of company</br>
-		- Began the integration of Espresso testing framework</br>
-		</p>
-	</div>
-	</h5>
-	<h3 style="color:#7B9E0D;margin-top:10px;">
-		&darr; <span class="expand" onclick="toggle('qts')">Software Developer</span> <span style="float:right; font-size:12px;color:black">QuickTapSurvey, Toronto, May - Aug 2015</span>
-	</h3>
-	<h5 style="margin-top:10px;margin-left:10px">
-		Developer for Android, iOS and web application
-	<div id="qts" class="hidden">
-		<p class="grey">
-		</br>
-		- Contributed heavily in beta and full release of Android application</br>
-		- Part of multiple release for web application and iOS application </br>
-		- Introduced mobile automation to QA team and aided them in the implmentation of this process </br>
-		- Brought up ideas with manager and CEO to help the company become more efficient by introducing new tools and processes to the Agile process</br>
-		</p>
-	</div>
-	</h5>
-	<h3 style="color:#7B9E0D;margin-top:30px;"> 
-		&darr; <span class="expand" onclick="toggle('pl2')">Agile Test Engineer</span><span style="float:right; font-size:12px;color:black">Pivotal Labs, Toronto, Sept - Dec 2014</span>
-	</h3>
-	<h5 style="margin-top:10px;margin-left:10px">
-		Applied mobile automation to multiple projects
-	<div id="pl2" class="hidden">
-		<p class="grey"></br>
-		- Heavily involved in automation for multiple projects </br>
-		- Using different frameworks to apply whitebox testing and blackbox testing </br>
-		- Frameworks used: Espresso (Java), Calabash (Ruby, Cucumber)
-		- Backup QA lead for multiple projects that use Agile development methodology  including one of the largest sports application currently on the market </br>
-		- Became more involved in Agile development cycle such as collaboration with developers
-		</p>
-	</div>
-	</h5>
-	<h3 style="color:#7B9E0D;margin-top:30px;"> 
-		&darr; <span class="expand" onclick="toggle('pl1')">Agile Test Engineer</span> 
-		<span style="float:right; font-size:12px;color:black">Xtreme Labs <span class="hide">(Acquired by Pivotal Labs)</span>, Toronto, Sept - Dec 2014</span>
-	</h3>
-	<h5 style="margin-top:10px;margin-left:10px">
-		Learnt skills in being detail oriented while testing mobile application
-	<div id="pl1" class="hidden">
-		<p class="grey"></br>
-			- Android, iOS, Windows, Blackberry manual testing for multiple projects</br>
-			- Introduced to Agile methodology and learnt about development cycles </br>
-			- Aided project lead with organization of test plans
-		</p>
-	</div>
-	</h5>
-
-	<h3 class="green header1"> 
-		MAIN PERSONAL PROJECTS <span class="small-font" style="color:#999999">(Click &darr; or <span class="expand">title</span> for more details)</span>
-	</h3>
-	<h3 style="color:#7B9E0D;margin-top:10px;" onclick="toggle('project')">
-		&darr; <span class="expand">WearIt Android & IOS</span> - <a href="https://github.com/tiffanylui/WearIt" target="_blank" style="font-size:12px; color:#7B9E0D">Github README</a>
-	</h3>
-	<h5 style="margin-top:10px;">
-		Android & IOS application that advises the user of the weather condition and what to wear for that the day. 
-		</br>
-
-		<div id="project" class="hidden">
-		<p class="grey">
-			<br>My goal of this application is to have a personalized approach when users are interpreting the weather. At the same time, this can allow users to acquire important data that they did not even know they needed.
-			In future releases, there are plans to begin user customization for a more personal relationship. </br></br>
-
-			The project works with RESTful API provided by Forecast.io. Tools used for this project include Sketch3, Xcode, Android Studio. </br></br>
-			Project is currently waiting on the designer to supply icons.
-			Further releases of the project include plans for user cutomization to further the personalized approach to each user.
-		</p>
-		</div>
-		</br>
-		<b>Want to check out the design process?</b> <a href="https://github.com/tiffanylui/WearIt" target="_blank" style="color:#000000">README</a> contains all that information on how I started to design it, what state the project is at right now, and different stages of design.
-	</h5>
-<span class="hidden">
-	<h3 class="green header1"> 
-		HACKATHONS <span class="small-font" style="color:#999999">(Click &darr; or <span class="expand">title</span> for more details)</span>
-	</h3>
-	<h3 style="color:#7B9E0D;margin-top:10px;">
-		&darr; <span class="expand" onclick="toggle('muse')">Muse Music Player - WearHacks</span> 
-	</h3>
-	<h5 style="margin-top:10px;">
-		alhalhdl
-	</h5>
-		</span>
-
 </div>
 
 
 
-<footer style="padding-top:120px">
+<!-- <footer style="padding-top:120px">
 	<h5>Thanks for coming! - <a href="https://github.com/tiffanylui/tiffanylui.github.io" target="_blank" style="color:#cfcfcf">Tiffany</a> </h5>
-</footer>
+</footer> -->
 
 </body>
 

@@ -1,17 +1,40 @@
 #header {
-	color:#7B9E0D;
-	text-align: center;
-	min-width: 500px;
+	background: #2196F3;
+	float: left;
+	width: 30%;
 }
 #body {
-	padding-left: 250px;
-	padding-right: 240px;
-	padding-top: 40px;
-	min-width: 500px;
+	background: #E0E0E0;
+	float: right;
+	width: 70%;
 }
 footer{
 	color:#cfcfcf;
 	text-align: center;
+}
+
+.cards{
+	box-shadow: 3px 4px 2px #A1A1A1;
+	background: #ffffff;
+}
+
+.flexbox {      
+  display: -webkit-flex;        
+  display: -ms-flexbox;     
+  display: flex;
+  overflow: hidden;
+}
+.flexbox .col {
+  padding: 20px;
+}
+.flexbox .col:nth-child(2) {
+          order: 1;
+}
+.flexbox .col:nth-child(1) { 
+          order: 0;
+}
+
+body {
 }
 .grey{
 	color:#6B6B6B;
@@ -21,8 +44,12 @@ footer{
 	color:#BABABA;
 }
 
-.green{
-	color:#7B9E0D;
+.blue{
+	color:#2196F3;
+}
+
+.white{
+	color:#ffffff;
 }
 
 .small-font{  
@@ -31,6 +58,13 @@ footer{
 .header1 {
 	font-size: 20px;
 	margin-top: 40px;
+}
+.margin-left-icons{
+	margin-left: 20px;
+	padding-top: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal; 
 }
 
 .hidden{
@@ -72,27 +106,35 @@ a:active {
     text-decoration: none;
 }
 
-
-<!-- Franklin Gothic Font -->
 h1 {
-	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 48px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
 }
-h3 {
-	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	font-size: 16px;
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 15.4px;
-	margin:0px;
+	margin:8px;
+}
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #595959;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	margin:8px;
 }
 h5 {
-	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
@@ -101,16 +143,17 @@ h5 {
 	margin: 0px;
 }
 p {
-	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 15.4px;
-	margin: 0px;
+	color: #828282;
+	margin: 8px;
 }
 blockquote {
-	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 21px;
 	font-style: normal;
 	font-variant: normal;
@@ -118,7 +161,7 @@ blockquote {
 	line-height: 30px;
 }
 pre {
-	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
 	font-style: normal;
 	font-variant: normal;
